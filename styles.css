@@ -16,20 +16,29 @@ body {
 .header,
 .hero {
   padding: 0 200px;
+  background-color: #1F2937;
 }
 
 .header {
   display: flex;
-  background-color: #1F2937;
   justify-content: space-between;
   align-items: center;
   height: 50px;
 }
 
-.header-logo {
-  color: #F9FAF8;
-  font-size: 24px;
+.header-logo,
+.main-title {
   font-weight: 900;
+}
+
+.header-logo,
+.main-title,
+p.image-placeholder {
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
 }
 
 .header-links {
@@ -38,8 +47,26 @@ body {
   gap: 25px;
 }
 
+.header-links a, 
+.sub-title {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+
 .header-links a {
   text-decoration: none;
-  color: #E5E7EB;
-  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  font-size: 48px;
+}
+
+.hero button {
+
 }
