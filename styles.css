@@ -13,7 +13,8 @@ body {
   flex-direction: column;
 }
 
-.header {
+.header,
+.hero {
   padding: 0 200px;
 }
 
