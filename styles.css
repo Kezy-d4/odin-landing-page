@@ -35,7 +35,7 @@ button {
 .header-logo,
 .main-title,
 .image-placeholder,
-button {
+button a {
   color: #F9FAF8;
 }
 
@@ -72,7 +72,9 @@ button {
 
 .hero button {
   background-color: #3882F6;
-  padding: 5px 25px;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 5px;
 }
 
 .hero-left,
@@ -94,6 +96,9 @@ button {
 }
 
 .sub-title {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
+button a {
+  text-decoration: none;
+}
