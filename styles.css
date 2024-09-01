@@ -27,13 +27,15 @@ body {
 }
 
 .header-logo,
-.main-title {
+.main-title,
+button {
   font-weight: 900;
 }
 
 .header-logo,
 .main-title,
-p.image-placeholder {
+.image-placeholder,
+button {
   color: #F9FAF8;
 }
 
@@ -44,7 +46,7 @@ p.image-placeholder {
 .header-links {
   list-style-type: none;
   display: flex;
-  gap: 25px;
+  column-gap: 25px;
 }
 
 .header-links a, 
@@ -52,7 +54,6 @@ p.image-placeholder {
   font-size: 18px;
   color: #E5E7EB;
 }
-
 
 .header-links a {
   text-decoration: none;
@@ -68,5 +69,6 @@ p.image-placeholder {
 }
 
 .hero button {
-
+  background-color: #3882F6;
+  padding: 5px 25px;
 }
