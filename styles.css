@@ -106,3 +106,28 @@ button a {
 a:hover {
   color: lightsteelblue;
 }
+
+.info-header {
+  text-align: center;
+  margin: 30px;
+}
+
+.info-images {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.info-images p {
+  text-align: center;
+}
+
+.info-image {
+  border: 5px solid #3882F6;
+  padding: 25px;
+}
+
+.image-and-subtext {
+  display: flex;
+  flex-direction: column;
+}
