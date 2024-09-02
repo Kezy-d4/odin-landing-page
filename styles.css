@@ -139,3 +139,23 @@ a:hover {
   flex-direction: column;
 }
 
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 112px 190px;
+  margin: 112px 0;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.thor {
+  font-weight: 900;
+  align-self: flex-end;
+}
