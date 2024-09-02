@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 0 150px;
+  padding: 0 125px;
 }
 
 .header-logo,
@@ -63,7 +63,7 @@ button a {
   display: flex;
   justify-content: space-between;
   column-gap: 25px;
-  padding: 90px 150px;
+  padding: 90px 125px;
 }
 
 .main-title {
