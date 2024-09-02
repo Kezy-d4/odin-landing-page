@@ -124,7 +124,7 @@ a:hover {
 .info-images p {
   text-align: center;
   width: 206px;
-  color: #4d4d4d
+  color: #363636
 }
 
 .info-image {
@@ -158,4 +158,34 @@ a:hover {
 .thor {
   font-weight: 900;
   align-self: flex-end;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 50px 100px;
+  margin: 0 125px 112px;
+  border-radius: 5px;
+}
+
+.call-to-action-left h2 {
+  color:#F9FAF8;
+  font-weight: 900;
+}
+
+.call-to-action-left p {
+  color: #d4d6da;
+}
+
+.call-to-action-button a {
+  text-decoration: none;
+}
+
+.call-to-action-button button {
+  padding: 7px 25px;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
+  background-color: #3882F6;
 }
